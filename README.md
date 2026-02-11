@@ -50,5 +50,23 @@ A modular, notebook‑centric design that mirrors production analytics systems:
 #### 📂 Project Structure Alignment
 Designed for clarity, extensibility, and reproducibility:
 
+ng-vol-forecasting/\
+├─ data/\
+│  ├─ raw/\
+│  │  ├─ ng_prices.csv\
+│  │  ├─ ng_futures_curve.csv\
+│  │  ├─ storage_eia_weekly.csv\
+│  │  ├─ fundamentals_balances.csv\
+│  │  └─ weather_degree_days.csv\
+│  └─ processed/\
+│     └─ features_panel.parquet\
+├─ config/\
+│  ├─ data_config.yaml\
+│  ├─ feature_config.yaml\
+│  └─ model_config.yaml\
+├─ ng_vol_forecasting_pipeline.ipynb\
+└─ README.md
+
+
 #### License
 This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).
