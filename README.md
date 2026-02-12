@@ -51,6 +51,8 @@ A modular, notebook‑centric design that mirrors production analytics systems:
 - 🔍 **Volatility Regimes**   
   Classification of low, medium, and high volatility environments
 
+  [5. Volatility regimes and hedge timing](https://github.com/manuelmusngi/Natural-Gas-Volatility-Forecasting-Hedge-Timing/blob/main/5.%20Volatility%20regimes%20and%20hedge%20timing)
+
 - ⏱️ **Hedge Timing Logic**   
   Translating forecasts into actionable hedge bias signals
 
