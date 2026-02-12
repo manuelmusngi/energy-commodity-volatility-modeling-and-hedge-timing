@@ -29,9 +29,9 @@ The implementation reflects a **reduced‑form, data‑driven interpretation** o
 #### 🧩 Pipeline Architecture
 A modular, notebook‑centric design that mirrors production analytics systems:
 
-  [0. Notebook metadata](https://github.com/manuelmusngi/Natural-Gas-Volatility-Forecasting-Hedge-Timing/blob/main/0.%20Notebook%20metadata)
+ - [0. Notebook metadata](https://github.com/manuelmusngi/Natural-Gas-Volatility-Forecasting-Hedge-Timing/blob/main/0.%20Notebook%20metadata)
 
-  [1. Imports, paths, and config](https://github.com/manuelmusngi/Natural-Gas-Volatility-Forecasting-Hedge-Timing/blob/main/1.%20Imports%2C%20paths%2C%20and%20config)
+ - [1. Imports, paths, and config](https://github.com/manuelmusngi/Natural-Gas-Volatility-Forecasting-Hedge-Timing/blob/main/1.%20Imports%2C%20paths%2C%20and%20config)
 
 - 📥 **Data Ingestion**  
   futures prices, futures curves, storage levels, fundamentals, and weather proxies
