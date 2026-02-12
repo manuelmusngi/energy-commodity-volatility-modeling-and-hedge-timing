@@ -1,0 +1,50 @@
+#### 5. Volatility regimes and hedge timing
+
+Map forecasted volatility into regimes:
+
+- Low: below 40th percentile
+- Medium: 40–70th percentile
+- High: above 70th percentile
+
+Example hedge bias for a consumer (long physical gas):
+
+- High vol → hedge earlier ("hedge_now")
+- Low vol → more flexibility ("wait_or_stagger")
+
+# regime classification
+regime_df = pd.DataFrame({
+    "pred_rv": oos_preds,
+    "realized_rv": y,
+}).dropna()
+
+q_low = regime_df["pred_rv"].quantile(0.4)
+q_high = regime_df["pred_rv"].quantile(0.7)
+
+def classify_regime(v: float) -> str:
+    if v <= q_low:
+        return "low"
+    elif v <= q_high:
+        return "medium"
+    else:
+        return "high"
+
+regime_df["vol_regime"] = regime_df["pred_rv"].apply(classify_regime)
+
+regime_df["hedge_bias"] = regime_df["vol_regime"].map({
+    "low": "wait_or_stagger",
+    "medium": "neutral",
+    "high": "hedge_now",
+})
+
+regime_df.tail()
+
+# visualization
+fig, ax = plt.subplots(figsize=(12, 4))
+regime_df["pred_rv"].plot(ax=ax, label="Forecasted RV")
+ax.axhline(q_low, color="green", linestyle="--", label="Low threshold")
+ax.axhline(q_high, color="red", linestyle="--", label="High threshold")
+ax.set_title("Forecasted volatility and regime thresholds")
+ax.legend()
+plt.show()
+
+
