@@ -34,7 +34,7 @@ A modular, notebook‑centric design that mirrors production analytics systems:
 
 - 📥 **Data Ingestion**  
   futures prices, futures curves, storage levels, fundamentals, and weather proxies
-
+- [2. Data ingestion](https://github.com/manuelmusngi/Natural-Gas-Volatility-Forecasting-Hedge-Timing/blob/main/2.%20Data%20ingestion)
 
 - 🛠️ **Feature Engineering**  
   Realized volatility, curve shape metrics, storage surprises, and regime indicators
