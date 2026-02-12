@@ -15,9 +15,10 @@ Build an end‑to‑end volatility forecasting system that:
 #### 🧠 Research Foundation
 Grounded in peer‑reviewed and working‑paper literature on natural gas markets, storage dynamics, and volatility modeling, including:
 
-- **Stochastic Path‑Dependent Volatility Models for Price‑Storage Dynamics in Natural Gas Markets** (arXiv)  
+- **Stochastic Path‑Dependent Volatility Models for Price‑Storage Dynamics in Natural Gas Markets** (arXiv)
+  
 - Academic and SSRN research on **storage surprises, fundamentals, and hedging effectiveness**
-
+  [Natural gas price, market fundamentals and hedging effectiveness](https://www.sciencedirect.com/science/article/abs/pii/S1062976920300478) 
 The implementation reflects a **reduced‑form, data‑driven interpretation** of these models suitable for operational use.
 
 
