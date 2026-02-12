@@ -46,6 +46,8 @@ A modular, notebook‑centric design that mirrors production analytics systems:
 - 📈 **Modeling & Forecasting**   
   Linear HAR‑style regressions and non‑linear machine learning models
 
+  [4. Modeling and forecasting](https://github.com/manuelmusngi/Natural-Gas-Volatility-Forecasting-Hedge-Timing/blob/main/4.%20Modeling%20and%20forecasting)
+
 - 🔍 **Volatility Regimes**   
   Classification of low, medium, and high volatility environments
 
