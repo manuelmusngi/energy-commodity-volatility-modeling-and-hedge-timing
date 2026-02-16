@@ -1,4 +1,4 @@
-#### 🌐 Natural Gas Volatility Forecasting & Hedge Timing
+#### 🌐 Natural Gas Volatility Forecasting Inference
 
 A **research‑driven, production‑ready analytics framework** for forecasting natural gas volatility and translating market signals into hedge timing and risk insights for decision-making.  
 
