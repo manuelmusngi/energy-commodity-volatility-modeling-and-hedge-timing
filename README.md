@@ -35,7 +35,7 @@ This repository demonstrates how **academic volatility concepts** can be transfo
 
 *Built with reproducibility, modularity, and decision‑making impact in mind.*
 
-#### 🧩 Pipeline Architecture
+#### 🧩 Pipeline Notebook Architecture
 A modular, notebook‑centric design that mirrors production analytics systems:
 
  - [0. Notebook metadata](https://github.com/manuelmusngi/Natural-Gas-Volatility-Forecasting-Hedge-Timing/blob/main/0.%20Notebook%20metadata)
