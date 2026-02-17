@@ -1,13 +1,13 @@
-#### 4. Modeling and forecasting
+# 4. Modeling and forecasting
 
-Compare:
+# Compare:
 
-- A non‑linear RandomForestRegressor on the full feature set
-- (Optional) A linear HAR‑style regression for interpretability
+# - A non‑linear RandomForestRegressor on the full feature set
+# - (Optional) A linear HAR‑style regression for interpretability
 
-Use time‑series cross‑validation and evaluate RMSE on the future RV target.
+# Use time‑series cross‑validation and evaluate RMSE on the future RV target.
 
-# RF model
+# RandomForestRegressor model
 target_col = "target_rv_fwd"
 feature_cols = [c for c in features.columns if c not in ["spot", target_col]]
 
