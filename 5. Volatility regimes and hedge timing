@@ -1,12 +1,12 @@
-#### 5. Volatility regimes and hedge timing
+# 5. Volatility regimes and hedge timing
 
-Map forecasted volatility into regimes:
+# Map forecasted volatility into regimes:
 
-- Low: below 40th percentile
-- Medium: 40–70th percentile
-- High: above 70th percentile
+# - Low: below 40th percentile
+# - Medium: 40–70th percentile
+# - High: above 70th percentile
 
-Example hedge bias for a consumer (long physical gas):
+# Example hedge bias for a consumer (long physical gas):
 
 - High vol → hedge earlier ("hedge_now")
 - Low vol → more flexibility ("wait_or_stagger")
