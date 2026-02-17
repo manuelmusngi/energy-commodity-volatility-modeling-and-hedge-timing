@@ -1,21 +1,21 @@
-#### 3. Feature engineering
+# 3. Feature engineering
 
-Construct:
+# Construct:
 
-- Realized volatility (5d, 10d) from log returns
-- Futures curve shape metrics
-- Storage surprise proxies
-- Fundamentals deltas
-- Weather anomalies
+# - Realized volatility (5d, 10d) from log returns
+# - Futures curve shape metrics
+# - Storage surprise proxies
+# - Fundamentals deltas
+# - Weather anomalies
 
-Target: future realized volatility over a configurable horizon.
+# Target: future realized volatility over a configurable horizon.
 
-#### Helpers
+# Helpers
 def realized_vol(series: pd.Series, window: int) -> pd.Series:
     rets = np.log(series).diff()
     return rets.rolling(window).std() * np.sqrt(252)
 
-#### Build features
+# Build features
 def build_features(panel: pd.DataFrame, cfg: dict) -> pd.DataFrame:
     df = panel.copy()
 
