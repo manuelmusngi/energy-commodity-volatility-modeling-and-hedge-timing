@@ -1,5 +1,0 @@
-prices_file: "ng_prices.csv"
-futures_curve_file: "ng_futures_curve.csv"
-storage_file: "storage_eia_weekly.csv"
-fundamentals_file: "fundamentals_balances.csv"
-weather_file: "weather_degree_days.csv"
